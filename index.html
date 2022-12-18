@@ -1,0 +1,159 @@
+
+<html>
+  <meta charset="UTF-8" /><meta
+    content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5"
+    name="viewport"
+  /><meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  /><link
+    href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <link
+    href="https://hanyauntukmu.likeadream.repl.co/style.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <script src="https://hanyauntukmu.likeadream.repl.co/script.js"></script>
+  <head> 
+    <title> ini dari anan buat arumm</title>
+  </head>
+  <style>
+    body {
+      background-image: url(https://i.postimg.cc/TYwwJBxt/7a8573b3-af8d-4e9f-954b-6cd709dff7c4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: bottom;
+    }
+    body::before {
+      content: "" !important;
+      color: transparent !important;
+    }
+  </style>
+  <body>
+    <div id="bodyblur">
+      <!-- <img
+        src="https://i.postimg.cc/NMLZ6Zk5/IMG-20220207-131156-010.jpg"
+        width="100%"
+        height="100%"
+      /> -->
+    </div>
+
+    <div id="Content">
+      <div class="image">
+        <img
+          src="https://i.postimg.cc/W4xjf6yM/peachcat-peachcat-and-goma.gif"
+          width="130px"
+          height="130px"
+        />
+      </div>
+      <div>
+        <blockquote>
+          <p id="text"></p>
+          <p id="text2"></p>
+        </blockquote>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function play() {
+        var audio = new Audio(
+          "http://sndup.net/zvzm/d"
+        )
+        audio.play()
+      }
+
+      const swals = Swal.mixin({
+        allowOutsideClick: false,
+        cancelButtonColor: "#FF0040",
+      })
+      const swalsy = Swal.mixin({
+        confirmButtonText: "Iya",
+        allowOutsideClick: false,
+      })
+      const swalst = Swal.mixin({
+        allowOutsideClick: false,
+        showConfirmButton: false,
+        timer: 5000,
+        timerProgressBar: true,
+      })
+
+      async function mulaitanya() {
+        var { isConfirmed: tanyawal } = await swals.fire({
+          title: `Haii Fathiika Arum Maulida, klik bawah itu yaaaa`,
+          imageUrl: "https://i.postimg.cc/rmF346P4/ARUMMMM.jpg",
+          imageWidth: 120,
+          imageHeight: 120,
+          confirmButtonText: "okeyy",
+          allowOutsideClick: false,
+          showCancelButton: false,
+        })
+        if (tanyawal) {
+          play()
+          kuis()
+        }
+      }
+
+      async function kuis() {
+        await swalst.fire({
+          title: "harimu berat yaa",
+          imageUrl: "https://i.postimg.cc/02wF21b1/peach-goma.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+        await swalst.fire({
+          title: "ngga papaa, kamu pasti bisa kokkk, hadapi semuaa pake senyumm",
+          imageUrl: "https://i.postimg.cc/g06FWScx/tepukbadan.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+        await swalst.fire({
+          title: "Arum itu hebat banget lohhh",
+          imageUrl: "https://i.postimg.cc/vZWmnK2p/gigit.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+		        await swalst.fire({
+          title: "arum bisa jadi apa ajaaa",
+          imageUrl: "https://i.postimg.cc/fWFcX7nS/swing-grey-cat.gif",
+          imageWidth: 343,
+          imageHeight: 254,
+        })
+				        await swalst.fire({
+		  title: "arum cantikk, maniss, lucuu, semua dari arum gemasss",
+          imageUrl: "https://i.postimg.cc/9fXydJxV/miss-you.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+				        await swalst.fire({
+          title: "makasih udah berjuangg",
+          imageUrl: "https://i.postimg.cc/br4PqC5h/nee.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+				        <!-- await swalst.fire({ -->
+				        await swalst.fire({
+          title: "sayang arumm",
+          imageUrl: "https://i.postimg.cc/RFyC0Z3y/love-you-are-loved.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+				await swalst.fire({
+          title: "love youuuuuuu &#129402;",
+          imageUrl: "https://i.postimg.cc/SsmkcNY9/bear-cute-1.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+        text = "i will be here for u"
+        emotnama = "&#10084;"
+        text2 = "Jaga diri baik-baikk, jangan lupa minumm "
+        showDiv()
+      }
+      mulaitanya()
+    </script>
+  </body>
+</html>
